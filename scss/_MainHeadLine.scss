@@ -1,0 +1,6 @@
+.MainHeadLine {
+    @include Text();
+    @include Button();
+    margin-top: 100px;
+    margin-bottom: 100px;
+}

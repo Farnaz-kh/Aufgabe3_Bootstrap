@@ -1,0 +1,474 @@
+.header_Bar {
+  background-color: #343a40;
+  width: 100%;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header_Bar .brand i {
+  color: #fff;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.header_Bar .brand p {
+  color: #fff;
+  margin-left: 45px;
+  margin-top: 0px;
+  font-size: 20px;
+}
+
+.header_Bar .menu_Icon {
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: 60px;
+}
+
+.header_Bar .menu_Icon div {
+  width: 50px;
+  height: 5px;
+  margin: 6px 0;
+}
+
+.header .main_Header {
+  position: relative;
+  margin-top: 0px;
+}
+
+.header .main_Header_Img {
+  width: 100%;
+  height: auto;
+  margin-top: 0px;
+}
+
+.header .main_Header_btn {
+  position: absolute;
+  top: 85%;
+  right: 0%;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  background-color: #dc3545;
+  color: #fff;
+  font-size: 16px;
+  padding: 20px 35px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  margin-right: -4%;
+}
+
+.header .main_Header_btn:hover {
+  background-color: #28a745;
+}
+
+.header .main_Header_Menu {
+  float: right;
+}
+
+.header .main_Header_Menu ul {
+  position: absolute;
+  clear: both;
+  right: 0%;
+  top: 0%;
+  margin-top: 0%;
+  list-style-type: none;
+  padding: 0;
+  width: 15%;
+  background-color: #fff;
+  border-bottom-left-radius: 10px;
+  height: auto;
+  overflow: auto;
+}
+
+.header .main_Header_Menu li {
+  display: block;
+  padding: 8px 12px;
+  text-align: center;
+  font-size: 30px;
+  float: right;
+  font-weight: bolder;
+  margin-right: 40px;
+}
+
+.header .main_Header_Menu a {
+  text-decoration: none;
+}
+
+.Footer {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.Footer_Circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Footer_Circle_1 {
+  margin-right: 30px;
+  width: 150px;
+  height: 150px;
+  background: #343a40;
+  border-radius: 50%;
+  color: #fff;
+  line-height: 150px;
+  text-align: center;
+}
+
+.Footer_Circle_2 {
+  margin-right: 30px;
+  width: 150px;
+  height: 150px;
+  background: #343a40;
+  border-radius: 50%;
+  color: #fff;
+  line-height: 150px;
+  text-align: center;
+}
+
+.Footer_Circle_3 {
+  margin-right: 30px;
+  width: 150px;
+  height: 150px;
+  background: #dc3545;
+  border-radius: 50%;
+  color: #fff;
+  line-height: 150px;
+  text-align: center;
+}
+
+.Footer_Boarder {
+  height: 200px;
+  width: 100%;
+  background-color: #343a40;
+  margin-top: 100px;
+}
+
+.Footer_Nav {
+  background-color: #f8f9fa;
+}
+
+.Footer_Nav nav {
+  border: 1px solid #f8f9fa;
+  border-width: 1px 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.Footer_Nav li {
+  display: inline;
+}
+
+.Footer_Nav a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  color: #343a40;
+}
+
+.Footer_Logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.Text {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
+  color: #343a40;
+}
+
+.VideosFullWidth iframe {
+  width: 100%;
+  height: 700px;
+}
+
+.ImageMiddle img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 100px;
+}
+
+.MainHeadLine {
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
+  color: #343a40;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.MainHeadLine button {
+  background-color: #343a40;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 220px;
+  border-radius: 10px;
+}
+
+.MainHeadLine button:after {
+  content: ' \007C \22B3';
+}
+
+.TextWithBackground {
+  background-color: #343a40;
+  color: #fff;
+  height: 900px;
+}
+
+.TextWithBackground h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bolder;
+  font-size: 90px;
+}
+
+.TextWithBackground h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.TextWithBackground .group_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -50px;
+}
+
+.TextWithBackground .group_1 .container_1 {
+  max-width: 500px;
+  margin-left: 140px;
+}
+
+.TextWithBackground .group_1 .container_2 {
+  max-width: 500px;
+  margin-left: 800px;
+}
+
+.TextWithBackground .group_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -100px;
+}
+
+.TextWithBackground .group_2 .container_3 {
+  max-width: 500px;
+  margin-right: 40px;
+}
+
+.TextWithBackground .group_2 .container_4 {
+  max-width: 500px;
+}
+
+.TextWithBackground .score {
+  font-family: Arial;
+  text-align: center;
+  background: #343a40;
+  border-radius: 130px;
+  border: 1px solid #fff;
+  padding: 35px;
+  font-size: 20px;
+  height: 150px;
+  width: 150px;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.TextWithBackground .text {
+  position: relative;
+  margin-top: -20px !important;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.MainHeadLineWithBackground {
+  background-color: #343a40;
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.MainHeadLineWithBackground div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.MainHeadLineWithBackground div button {
+  background-color: white;
+  border: none;
+  color: #343a40;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.MainHeadLineWithBackground div button:after {
+  content: ' \007C \22B3';
+}
+
+.CircleText {
+  width: 100%;
+  height: 380px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.CircleText .container_1 {
+  max-width: 500px;
+  margin-top: 80px;
+}
+
+.CircleText .container_2 {
+  max-width: 500px;
+  margin-left: 30px;
+  margin-top: 80px;
+}
+
+.CircleText .score {
+  text-align: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(51%), color-stop(51%, #343a40));
+  background: linear-gradient(#fff, 51%, #343a40 51%);
+  border: 2px solid #343a40;
+  border-radius: 160px;
+  padding: 30px;
+  font-size: 20px;
+  height: 250px;
+  width: 250px;
+  color: #000;
+  margin-bottom: 100px;
+}
+
+.CircleText .text {
+  position: relative;
+  margin-top: -20px !important;
+  font-size: 15px;
+}
+
+.ColorBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+.ColorBar div {
+  color: white;
+  width: 25%;
+  height: 250px;
+  text-align: center;
+  line-height: 200px;
+  font-size: 50px;
+  opacity: 80%;
+}
+
+.ColorBar div i {
+  position: absolute;
+  margin-left: -10px;
+}
+
+.ColorBar div p {
+  position: relative;
+}
+
+.FullBox {
+  background-color: #343a40;
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  margin-top: 120px;
+}
+
+.FullBox p {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-size: 50px;
+}
+/*# sourceMappingURL=main.css.map */
