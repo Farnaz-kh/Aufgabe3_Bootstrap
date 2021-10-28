@@ -8,233 +8,354 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <title>Website</title>
 </head>
 
 <body>
-    <!-- start site Header -->
-    <header class="header">
-        <div class="header_Bar">
-            <div class="brand">
-                <i class="fa fa-utensils">&nbsp;&nbsp;&nbsp;Smart </i>
-                <p> Cuisine</p>
-            </div>
-            <div class="menu_Icon">
-                <div style="background-color:#602040"></div>
-                <div style="background-color:#e62e00"></div>
-                <div style="background-color:#ffc107"></div>
-                <div style="background-color:#28a745"></div>
-            </div>
-        </div>
-        <div class="main_Header">
-            <nav class="main_Header_Menu">
-                <ul>
-                    <li><a style="color:   #602040" href="#">Senior</a></li>
-                    <li><a style="color:   #e62e00" href="#">Care</a></li>
-                    <li><a style="color:   #ffc107" href="#">Education</a></li>
-                    <li><a style="color:   #28a745" href="#">Gastro</a></li>
+
+    <body class="container">
+
+        <!-- nav element -->
+        <nav class="navbar badge-dark navbar-dark px3" id="navBar">
+            <a href="#" style="width: 2px;" class="navbar-brand">
+                <h6><i class="fa fa-utensils"></i>&nbsp;&nbsp;&nbsp;Smart Cuisine</h6>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav">
+            <span class="navbar-icon">
+              <i class="fas fa-bars"></i>
+            </span>
+          </button>
+            <div class="collapse navbar-collapse" id="myNav">
+                <ul class="navbar-nav float-right mx-auto">
+                    <li class="nav-item active">
+                        <a href="#" style="color: var(--purple);" class="nav-link">Senior</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" style="color: var(--red);" class="nav-link">
+                  Care
+                </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" style="color: var(--yellow);" class="nav-link">
+                  Education
+                </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" style="color: var(--green);" class="nav-link">
+                  Gastro
+                </a>
+                    </li>
                 </ul>
-            </nav>
-            <img class="main_Header_Img" src="./Images/famous-chef-works-in-a-big-restaurant-kitchen-with-his-help-kitchen-picture-id824283794.jpg" alt="close-up-man-looking-blank-digital-tablet.jpg">
-            <button class="main_Header_btn">SchnellKontakt</button>
-        </div>
-    </header>
-    <!-- end site Header -->
-    <!-- Start site Text  -->
-    <section class="Text">
-        <div>
-            <h2>Verpflegen Sie smart</h2>
-            <p>MIT SMART CUISINE.</p>
-            <p>Das Kochen in der Großküche stellt uns täglich vor besondere Herausforderungen. Immer schneller müssen wir auf Veränderungen, Trends und technischen Fortschritt reagieren. Mit Smart Cuisine helfen wir Ihnen, Ihre Küche einfach, clever und
-                kosteneffizient einzustellen. Mit unseren Produkten und Beratungsleistungen machen wir Sie zum Experten für Smart Convenience. So kommt das Essen bei Ihnen lecker, unkompliziert und in optimaler Qualität auf den Teller
-            </p>
-        </div>
-    </section>
-    <!-- end site Text  -->
-    <!-- Start Video -->
-    <section class="VideosFullWidth">
-        <iframe src="https://www.youtube.com/embed/mFLLO0tjCyQ">
-        </iframe>
-    </section>
-    <!-- End Vido -->
-    <!--Start site MainHeadLine  -->
-    <section class="MainHeadLine">
-        <h2>Entdecken Sie Smart Convenience</h2>
-        <p>DAS GELINGSICHERE VOLLSORTIMENT</p>
-        <button>Entspannt genießen&nbsp;&nbsp;&nbsp;</button>
-    </section>
-    <!--end site MainHeadLine-->
-
-    <!-- start siteImageMiddle -->
-    <section class="ImageMiddle">
-        <img src="./Images/plate.png" alt="plate">
-    </section>
-    <!--end site ImageMiddle-->
-
-    <!-- start site TextWithBackground -->
-    <section class="TextWithBackground">
-        <h1>Smart Cuisine</h1>
-        <div>
-            <h2>...Lorem ipsum dolor sit amet</h2>
-            <h2>...consetetur sadipscing elitr</h2>
-            <h2>...sed diam nonumy eirmod tempor invidunt ut labore </h2>
-            <h2>...sed diam voluptua.</h2>
-        </div>
-        <div class="group_1">
-            <div class="container_1">
-                <p class="score ">Spart bis zu<span class="text"><br> 30% <br></span>Betriebs-Kosten</p>
             </div>
-            <div class="container_2">
-                <p class="score ">Spart bis zu<span class="text"><br> 40% <br></span>Betriebs-Kosten</p>
+        </nav>
+        <!-- end nav element -->
+        <!--start  Headr -->
+
+        <!-- start Fullimage -->
+        <div class="row">
+            <div class="col">
+                <img src="./Images/famous-chef-works-in-a-big-restaurant-kitchen-with-his-help-kitchen-picture-id824283794.jpg" alt="chef" class="img-fluid" />
             </div>
         </div>
-        <div class="group_2">
-            <div class="container_3">
-                <p class="score ">Spart bis zu<span class="text"><br> 50% <br></span>Betriebs-Kosten</p>
-            </div>
-            <div class="container_4">
-                <p class="score ">Spart bis zu<span class="text"><br> 60% <br></span>Betriebs-Kosten</p>
-            </div>
-        </div>
-    </section>
-    <!-- end site TextWithBackground  -->
+        <!-- end Fullimage -->
 
-    <!--Start site MainHeadLine  -->
-    <section class="MainHeadLine">
-        <h2>Mit System zum Erfolg</h2>
-        <p>HR WEG ZU EINER SMARTEN KÜCHE.</p>
-        <button>Smart Durchstarten&nbsp;&nbsp;&nbsp;</button>
-    </section>
-    <!--end site MainHeadLine-->
-
-    <!--Start site MainHeadLineWithBackground  -->
-    <section class="MainHeadLineWithBackground">
+        <!-- start Button -->
         <div>
-            <h2>Mit System zum Erfolg</h2>
-            <p>HR WEG ZU EINER SMARTEN KÜCHE.</p>
-            <button>Clever Sparen&nbsp;&nbsp;&nbsp;</button>
+            <div class="row justify-content-end">
+                <a class="btn btn-danger button " href="#">
+                        Schnellkontakt
+                </a>
+            </div>
         </div>
-    </section>
-    <!--end site MainHeadLineWithBackground-->
+        <!-- end Button -->
+        <!-- end Header -->
 
-    <!--Start site MainHeadLine  -->
-    <section class="MainHeadLine">
-        <h2>Mit System zum Erfolg</h2>
-        <p>HR WEG ZU EINER SMARTEN KÜCHE.</p>
-        <button>Smart Durchstarten&nbsp;&nbsp;&nbsp;</button>
-    </section>
-    <!--end site MainHeadLine-->
-
-    <!-- Start site TwocircleText -->
-    <section style="background-color: #ced4da" class="CircleText">
-        <div class="container_1">
-            <p class="score "><br><br>MEHR ERFOLG.WENIGER PERSONAL.<br><br><br><br><span style="color: white;" class="text">
-                Smart Cuisine bietet Ihnen gleichbleibend hohe Qualitätbei wesentlich weniger Personaleinsatz.
-            </span></p>
+        <!-- Start  Text  -->
+        <div class="row">
+            <div class="text-center text-justify p-5 mt-5">
+                <h2>Verpflegen Sie smart</h2>
+                <p>MIT SMART CUISINE.</p>
+                <p>Das Kochen in der Großküche stellt uns täglich vor besondere Herausforderungen. Immer schneller müssen wir auf Veränderungen, Trends und technischen Fortschritt reagieren. Mit Smart Cuisine helfen wir Ihnen, Ihre Küche einfach, clever
+                    und kosteneffizient einzustellen. Mit unseren Produkten und Beratungsleistungen machen wir Sie zum Experten für Smart Convenience. So kommt das Essen bei Ihnen lecker, unkompliziert und in optimaler Qualität auf den Teller
+                    <p>
+            </div>
         </div>
-        <div class="container_2">
-            <p class="score "><br><br>MEHR ERFOLG.WENIGER PERSONAL.<br><br><br><br><span style="color: white;" class="text">
-                Smart Cuisine bietet Ihnen gleichbleibend hohe Qualitätbei wesentlich weniger Personaleinsatz.
-            </span></p>
+        <!-- end Text  -->
+
+        <!-- Start Video -->
+        <div class="row">
+            <div class="embed-responsive embed-responsive-21by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mFLLO0tjCyQ"></iframe>
+            </div>
+
         </div>
-    </section>
-    <!-- end site TwocircleText -->
+        <!-- End Vido -->
 
-    <!-- Start site TwocircleText -->
-    <section style="background-color: white" class="CircleText">
-        <div class="container_1">
-            <p class="score "><br><br>MEHR ERFOLG.WENIGER PERSONAL.<br><br><br><br><span style="color: white;" class="text">
-                    Smart Cuisine bietet Ihnen gleichbleibend hohe Qualitätbei wesentlich weniger Personaleinsatz.
-                </span></p>
+        <!--Start site MainHeadLine  -->
+        <div class="row justify-content-center">
+            <div class="text-center p-5 mt-5">
+                <h2>Entdecken Sie Smart Convenience</h2>
+                <p>DAS GELINGSICHERE VOLLSORTIMENT</p>
+                <p><button class="btn btn-dark">Entspannt genießen&nbsp;&nbsp;&nbsp;</button></p>
+            </div>
         </div>
-        <div class="container_2">
-            <p class="score "><br><br>MEHR ERFOLG.WENIGER PERSONAL.<br><br><br><br><span style="color: white;" class="text">
-                    Smart Cuisine bietet Ihnen gleichbleibend hohe Qualitätbei wesentlich weniger Personaleinsatz.
-                </span></p>
+        <!--end site MainHeadLine-->
+
+        <!-- start siteImageMiddle -->
+        <div class="row justify-content-center">
+            <img src="./Images/plate.png" class="img-fluid" alt="plate">
         </div>
-    </section>
-    <!-- end site TwocircleText -->
-
-    <!-- start site Colorbar -->
-    <section class="ColorBar">
-        <div style="background-color:#602040">
-            <i>&#9982;</i>
-            <p>Senior</p>
+        <!--end site ImageMiddle-->
+        <!-- start Title -->
+        <div class="row badge-dark bg-dark justify-content-center">
+            <div>
+                <h1>Smart Cuisine</h1>
+            </div>
         </div>
-        <div style="background-color:#e62e00">
-            <i>&#10048;</i>
-            <p>care</p>
-        </div>
-        <div style="background-color:#ffc107">
-            <i>&#128196;</i>
-            <p>Education</p>
-        </div>
-        <div style="background-color:#28a745">
-            <i>&#127789;</i>
-            <p>Gastro</p>
-        </div>
-    </section>
-    <!-- end site Colorbar -->
+        <!-- end Title -->
 
-    <!-- start site FullBoxGray -->
-    <section class="FullBox">
-        <p>Einfach smart Digitalisieren.</p>
-    </section>
-    <!-- end site FullBoxGray -->
-
-    <!--Start site MainHeadLine  -->
-    <section class="MainHeadLine">
-        <h2>Mit System zum Erfolg</h2>
-        <p>HR WEG ZU EINER SMARTEN KÜCHE.</p>
-        <button style="background-color: #dc3545 ;">Smart Durchstarten&nbsp;&nbsp;&nbsp;</button>
-    </section>
-    <!--end site MainHeadLine-->
-
-
-
-
-
-    <!-- start site Footer -->
-    <section class="Footer ">
-        <div>
-            <div class="Footer_Circle ">
-                <div>
-                    <p class="Footer_Circle_1 ">BeratungsLeistung</p>
+        <!-- start  -->
+        <div class="row   badge-dark bg-dark ">
+            <div class="col-xl-2 d-none d-xl-block mt-5">
+                <p class="score text-center">Spart bis zu<span class="text"><br> 30% <br></span>Betriebs-Kosten</p>
+            </div>
+            <div class="col-xl-7 d-none d-xl-block">
+                <div class="col">
+                    <div class="row ml-5  mt-5 text-center justify-content-center">
+                        <h2>...Lorem ipsum dolor sit amet</h2>
+                        <h2>...consetetur sadipscing elitr</h2>
+                        <h2>...sed diam nonumy eirmod tempor invidunt ut labore </h2>
+                        <h2>...sed diam voluptua.</h2>
+                    </div>
                 </div>
-                <div>
-                    <p class="Footer_Circle_2 ">Digitales<span>Managment</span></p>
+                <div class="w-100">
+                    <div class="col">
+                        <div class="row justify-content-center">
+                            <div class="col-4 mr-5">
+                                <p class="score ">Spart bis zu<span class="text"><br> 40% <br></span>Betriebs-Kosten</p>
+                            </div>
+                            <div class="col-4 ml-5">
+                                <p class="score">Spart bis zu<span class="text"><br> 50% <br></span>Betriebs-Kosten</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <p class="Footer_Circle_3 ">SortimentsLösung</p>
+                <div class="col">
                 </div>
             </div>
-            <div class="Footer_Boarder "></div>
-            <div class="Footer_Nav ">
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="# ">Über Transgourment </a>
-                        </li>
-                        <li>
-                            <a href="# ">Kontakt</a>
-                        </li>
-                        <li>
-                            <a href="# ">Impressum</a>
-                        </li>
-                        <li>
-                            <a href="# ">Datenschutz</a>
-                        </li>
-                    </ul>
+            <div class="col-xl-3 d-none d-xl-block mt-5">
+                <p class="score">Spart bis zu<span class="text"><br> 60% <br></span>Betriebs-Kosten</p>
+            </div>
+        </div>
+        <!-- end -->
+
+        <!-- start  -->
+        <div class="row badge-dark bg-dark">
+            <div class="col-12 d-xl-none">
+                <nav class="row ml-5 mt-5 justify-content-center text-center  ">
+                    <h5>...Lorem ipsum dolor sit amet</h5>
+                    <h5>...consetetur sadipscing elitr</h5>
+                    <h5>...sed diam nonumy eirmod tempor invidunt ut labore </h5>
+                    <h5>...sed diam voluptua.</h5>
                 </nav>
             </div>
-            <div class="Footer_Logo ">
-                <i class="fa fa-utensils ">&nbsp;TRANSGoURMENT </i>
+            <div class="w-100 "></div>
+            <div class="col-6 d-xl-none d-flex justify-content-center   ">
+                <p class="score ">Spart bis zu<span class="text"><br> 30% <br></span>Betriebs-Kosten</p>
+            </div>
+            <div class="col-6 d-xl-none d-flex justify-content-center  ">
+                <p class="score">Spart bis zu<span class="text"><br> 30% <br></span>Betriebs-Kosten</p>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-6 d-xl-none d-flex justify-content-center   ">
+                <p class="score">Spart bis zu<span class="text"><br> 30% <br></span>Betriebs-Kosten</p>
+            </div>
+            <div class="col-6 d-xl-none d-flex justify-content-center   ">
+                <p class="score">Spart bis zu<span class="text"><br> 30% <br></span>Betriebs-Kosten</p>
             </div>
         </div>
-    </section>
-    <!-- end site Footer -->
+        <!-- end -->
 
-</body>
+        <!--Start site MainHeadLine  -->
+        <div class="row justify-content-center">
+            <div class="text-center p-5 mt-5">
+                <h2>Mit System zum Erfolg</h2>
+                <p>IHR WEG ZU EINER SMARTEN KÜCHE.</p>
+                <p><button class="btn btn-dark">Smart Durchstarten&nbsp;&nbsp;&nbsp;</button></p>
+            </div>
+        </div>
+        <!--end site MainHeadLine-->
+
+        <!--Start site MainHeadLine with Background  -->
+        <div class="row badge-dark bg-dark  align-items-center justify-content-center">
+            <div class="text-center p-5 mt-5">
+                <h2>Mit System zum Erfolg</h2>
+                <p>IHR WEG ZU EINER SMARTEN KÜCHE.</p>
+                <p><button class="btn btn-light">Smart Durchstarten&nbsp;&nbsp;&nbsp;</button></p>
+            </div>
+        </div>
+        <!--end site MainHeadLine with Background -->
+
+        <!--Start site MainHeadLine  -->
+        <div class="row justify-content-center">
+            <div class="text-center p-5 mt-5">
+                <h2>Ihre smarten Vorteile</h2>
+                <p>JETZT UMSTELLEN. SMART VERPFLEGEN. KOSTENEFFIZIENT ZUM ERFOLG.</p>
+                <p><button class="btn btn-dark">Jetzt Termin vereinbaren&nbsp;&nbsp;&nbsp;</button></p>
+            </div>
+        </div>
+        <!--end site MainHeadLine-->
+
+        <div class="row">
+            <div class="col mt-5 d-flex justify-content-center bg-light ">
+                <p class="scoreTwoColor "><br><br><span class="font-weight-bold">MEHR ERFOLG.WENIGER PERSONAL.</span><br><br>
+                    <span class="justify-content-center textTwoColor " style="color: white">
+                    Smart Cuisine bietet Ihnen gleichbleibend hohe Qualität bei wesentlich weniger Personaleinsatz.</span>
+                </p>
+            </div>
+            <div class="col mt-5 d-flex justify-content-center bg-light ">
+                <p class="scoreTwoColor "><br><br><span class="font-weight-bold">MEHR ERFOLG.WENIGER PERSONAL.</span><br><br>
+                    <span class="justify-content-centertextTwoColor " style="color: white">
+                    Smart Cuisine bietet Ihnen gleichbleibend hohe Qualität bei wesentlich weniger Personaleinsatz.</span>
+                </p>
+            </div>
+            <div class="w-100"></div>
+            <div class="col mt-5 d-flex justify-content-center ">
+                <p class="scoreTwoColor "><br><br><span class="font-weight-bold">MEHR ERFOLG.WENIGER PERSONAL.</span><br><br>
+                    <span class="justify-content-center textTwoColor" style="color: white">
+                    Smart Cuisine bietet Ihnen gleichbleibend hohe Qualität bei wesentlich weniger Personaleinsatz.</span>
+                </p>
+            </div>
+            <div class="col mt-5 d-flex justify-content-center ">
+                <p class="scoreTwoColor "><br><br><span class="font-weight-bold">MEHR ERFOLG.WENIGER PERSONAL.</span><br><br>
+                    <span class="justify-content-center textTwoColor " style="color: white">
+                    Smart Cuisine bietet Ihnen gleichbleibend hohe Qualität bei wesentlich weniger Personaleinsatz.</span>
+                </p>
+            </div>
+        </div>
+
+        <!-- start FullBox sm   -->
+
+        <div class="row mb-5">
+            <div style="background-color:#602040 ; " class="col d-none d-md-block  badge-dark  text-center py-5">
+                <i style="font-size: 50px;">&#9982;</i>
+                <h1>Senior</h1>
+            </div>
+            <div class="col d-none d-md-block bg-danger  badge-dark  text-center py-5">
+                <i style="font-size: 50px;">&#10048;</i>
+                <h1>care</h1>
+            </div>
+            <div class="col d-none d-md-block bg-primary  badge-dark  text-center font-weight-bold py-5">
+                <i style="font-size: 50px;">&#128196;</i>
+                <h1>Education</h1>
+            </div>
+            <div class="col d-none d-md-block bg-success  badge-dark  text-center py-5">
+                <i style="font-size: 50px;">&#127789;</i>
+                <h1>Gastro</h1>
+            </div>
+        </div>
+        <!-- end FullBox -->
+
+
+        <!-- start FullBox md-lg-xl -->
+
+        <div class="row mb-5 d-md-none badge-dark">
+            <div style="background-color:#602040 ; " class="col d-md-none  text-center py-5">
+                <i>&#9982;</i>
+                <p>Senior</p>
+            </div>
+            <div class="col d-md-none bg-danger text-center py-5">
+                <i>&#10048;</i>
+                <p>care</p>
+            </div>
+            <div class="col d-md-none bg-primary text-center font-weight-bold py-5">
+                <i>&#128196;</i>
+                <p>Education</p>
+            </div>
+            <div class="col d-md-none bg-success text-center py-5">
+                <i>&#127789;</i>
+                <p>Gastro</p>
+            </div>
+        </div>
+        <!-- end FullBox -->
+
+        <!--Start site MainHeadLine  -->
+        <div class="row justify-content-center">
+            <div class="text-center p-5 mt-5">
+                <p>Bei „Smart Cuisine“ handelt es sich um ein förderungswürdiges Projekt im Sinne nationaler und regionaler Förderprogramme mit dem Schwerpunkt Digitalisierung.</p>
+                <p>Gerne prüfen wir für Sie alternative Möglichkeiten der finanziellen Unterstützung Ihres Projektes in Form eines Förderungprogrammes.</p>
+                <p><button class="btn btn-danger">Fördermöglichkeiten Digitalisierung&nbsp;&nbsp;&nbsp;</button></p>
+            </div>
+        </div>
+        <!--end site MainHeadLine-->
+
+        <!--Start site MainHeadLine  -->
+        <div class="row justify-content-center">
+            <div class="text-center p-5 mt-3">
+                <h2>Digitale Powertools.</h2>
+                <p>UNSERE IT-LÖSUNGEN FÜR IHRE KÜCHE.</p>
+                <p><button class="btn btn-dark">Zum MenüManager 3.0&nbsp;&nbsp;&nbsp;</button></p>
+            </div>
+        </div>
+        <!--end site MainHeadLine-->
+
+
+        <!-- start footer -->
+
+        <div class="row  mt-5 justify-content-center">
+            <div class="col-4">
+                <div class="row">
+                    <div class="col  ">
+                        <p class="item text-center py-5 bg-dark ">Beratungs- <br>Leistung</p>
+                    </div>
+                    <div class="col">
+                        <p class="item text-center py-5 bg-dark ">Digitales<br>Management</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="row">
+                    <div class="col">
+                        <p class="item text-center py-5 bg-dark ">Technik&<br>Finanzierung</p>
+                    </div>
+                    <div class="col">
+                        <p class="item text-center py-5 bg-danger">Sortiments- <br>Lösungen</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-dark mt-5 w-100" style="height: 150px;"></div>
+            <nav class="navbar w-100 text-center justify-content-center mt-5 bg-light navbar-light  navbar-expand-sm">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="#">über Transgourment</a>
+                    <a class="nav-item nav-link" href="#">Kontakt</a>
+                    <a class="nav-item nav-link" href="#">Impressum</a>
+                    <a class="nav-item nav-link" href="#">Datenschutz</a>
+                </div>
+            </nav>
+            <div class="mt-5 mb-5 justify-content-center">
+                <i class="fa fa-utensils text-danger ">&nbsp;TRANSGoURMENT </i>
+            </div>
+
+
+
+        </div>
+
+
+        <!-- end footer -->
+
+
+
+
+        <!-- jquery -->
+        <script src="js/jquery-3.3.1.min.js "></script>
+        <!-- bootstrap js -->
+        <script src="js/bootstrap.bundle.min.js "></script>
+        <!-- script js -->
+        <script src="js/script.js "></script>
+
+    </body>
 
 </html>
